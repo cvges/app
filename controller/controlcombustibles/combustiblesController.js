@@ -3,7 +3,7 @@ Ext.define('cvges.controller.controlcombustibles.combustiblesController', {
 	alias: 'controller.combus',
 	
 	onNewRead: function () {
-        console.log("Mensaje de log para controlador")
+        console.log("Mensaje de log para controlador");
 
         
     }

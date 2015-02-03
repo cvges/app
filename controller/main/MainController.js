@@ -28,12 +28,12 @@ Ext.define('cvges.controller.main.MainController', {
 			var	tab = Ext.widget('control');
 				tab.closable=true;
 				tab.reference='tabControl';
-				//Ext.create('Ext.Panel', {reference:'tabControl',title:'Control de máquinas',html:'<img src="http://www.pgr.gov.py/files/logo-sgs.png"/>',closable:true,});
+				//Ext.create('Ext.Panel', {reference:'tabControl',title:'Control de mï¿½quinas',html:'<img src="http://www.pgr.gov.py/files/logo-sgs.png"/>',closable:true,});
 				tabPanelMain.add(tab);
 				tabPanelMain.doLayout();
 				tabPanelMain.setActiveTab(tab);
 		}else{
-			tabPanelMain.setActiveTab(this.lookupReference('tabControl'))
+			tabPanelMain.setActiveTab(this.lookupReference('tabControl'));
 		}
 	},
 	onEntrada: function(){
@@ -47,7 +47,7 @@ Ext.define('cvges.controller.main.MainController', {
 			tabPanelMain.doLayout(); 
 			tabPanelMain.setActiveTab(tab);
 		}else{
-			tabPanelMain.setActiveTab(this.lookupReference('tabEntrada'))
+			tabPanelMain.setActiveTab(this.lookupReference('tabEntrada'));
 		}
 	}
 });
