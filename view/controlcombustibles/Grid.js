@@ -14,7 +14,8 @@ Ext.define('cvges.view.controlcombustibles.Grid' ,{
 			[
 				{
 					xtype:'button',
-					text:'Nuevas lecturas'
+					text:'Nuevas lecturas',
+					handler:'onNewRead'
 				}
 			]
 			
