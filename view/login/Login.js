@@ -1,8 +1,7 @@
 Ext.define("cvges.view.login.Login", {
 			extend : 'Ext.window.Window',
 			xtype : 'login',
-			requires : ['cvges.controller.login.LoginController',
-					'Ext.form.Panel', 'cvges.view.main.MainModel',],
+			requires : ['cvges.controller.login.LoginController','Ext.form.Panel', 'cvges.view.main.MainModel',],
 			viewModel : {
 				type : 'main'
 			},

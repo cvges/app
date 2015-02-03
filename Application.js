@@ -8,9 +8,7 @@ Ext.define('cvges.Application', {
 
 			name : 'cvges',
 
-			views : ['cvges.view.login.Login', 'cvges.view.main.Main',
-					// 'cvges.view.mesadeentrada.Grid',
-					'cvges.view.controlcombustibles.controlMain'],
+			views : ['cvges.view.login.Login', 'cvges.view.main.Main','cvges.view.controlcombustibles.controlMain','cvges.view.controlcombustibles.controlCargaLectura'],
 
 			stores : [
 			// TODO: add global / shared stores here

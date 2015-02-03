@@ -9,10 +9,7 @@
 Ext.define('cvges.view.main.Main', {
 			extend : 'Ext.container.Container',
 			plugins : 'viewport',
-			requires : ['cvges.controller.main.MainController',
-					'cvges.view.main.MainModel',
-			// 'Ext.layout.container.Accordion'
-			],
+			requires : ['cvges.controller.main.MainController','cvges.view.main.MainModel',],
 			xtype : 'app-main',
 
 			controller : 'main',
