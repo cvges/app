@@ -1,19 +1,21 @@
 Ext.define('cvges.controller.login.LoginController', {
-    extend: 'Ext.app.ViewController',
-    alias: 'controller.login',
+			extend : 'Ext.app.ViewController',
+			alias : 'controller.login',
 
-    onLoginClick: function(){        
+			onLoginClick : function() {
 
-        // This would be the ideal location to verify the user's credentials via 
-        // a server-side lookup. We'll just move forward for the sake of this example.
-		//console.log(this.lookupReference('form'));
-        // Set the localStorage value to true
-        localStorage.setItem("TutorialLoggedIn", true);
+				// This would be the ideal location to verify the user's
+				// credentials via
+				// a server-side lookup. We'll just move forward for the sake of
+				// this example.
+				// console.log(this.lookupReference('form'));
+				// Set the localStorage value to true
+				localStorage.setItem("TutorialLoggedIn", true);
 
-        // Remove Login Window
-        this.getView().destroy();
-		
-        // Add the main view to the viewport
-        Ext.widget('app-main');
-    }
-});
+				// Remove Login Window
+				this.getView().destroy();
+
+				// Add the main view to the viewport
+				Ext.widget('app-main');
+			}
+		});
