@@ -11,8 +11,8 @@ Ext.define('cvges.Application', {
 	views: [
         'cvges.view.login.Login',
         'cvges.view.main.Main',
-		'cvges.view.mesadeentrada.Grid',
-		'cvges.view.controlcombustibles.Grid'
+		//'cvges.view.mesadeentrada.Grid',
+		'cvges.view.controlcombustibles.controlMain'
     ],
 	
     stores: [

@@ -1,7 +1,11 @@
-Ext.define('cvges.view.controlcombustibles.Grid' ,{
+Ext.define('cvges.view.controlcombustibles.controlMain' ,{
 	extend: 'Ext.container.Container',
 	alias : 'widget.control',
 	title: 'Control de Máquinas',
+	requires: [
+		'cvges.controller.controlcombustibles.combustiblesController'
+	],
+	controller: 'combus',
 	layout: 
 	{
 		type: 'vbox'
